@@ -1,0 +1,77 @@
+
+body{
+background-color: grey;
+font-size: 16px;
+  
+}
+#main {
+  min-width: 200px;
+  min-height: 400px;
+}
+
+h1{
+  width: 300px;
+  font-size: 25px;
+  text-align: centre;
+  margin:auto;
+}
+
+#saved {
+  font-size: 18px;
+  margin-left :10px;
+  width : 300px;
+  opacity: 0.8;
+  margin: auto;
+}
+
+#img-caption{
+  width:300px;
+  text-align:right;
+  margin: auto;
+}
+
+#tribute-info{
+  text-align: left;
+  margin-left: 40px;
+  margin: auto;
+}
+#image {
+  display: block;
+  max-width:100%;
+margin: 10px auto;
+}
+
+#qoute{
+  font-style: italic;
+}
+
+li{
+  width:300px;
+}
+#tribute-link{
+  color: dark blue;
+}
+
+/* MEDIA QUERY STARTS HERE */
+
+/* at max-width: 400px */
+@media (max-width: 400px){
+  #img-caption{
+    font-size: 4.0vw;
+    width: 60vw;
+  }
+  ul
+li{
+    font-size: 4.5vw;
+    width: 80vw;
+  }
+}
+ /* at max-width: 355px; */
+ @media (max-width: 355px){
+  li{
+    font-size: 3.8vw;
+    width: 50vw;
+  }
+} 
+
+
